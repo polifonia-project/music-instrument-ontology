@@ -1,2 +1,2 @@
-# instrument
-This repository contains the Instruments ontology module of the Polifonia ontology network.
+# Instrument
+This repository contains the Instrument ontology module of the Polifonia ontology network.
