@@ -1,5 +1,5 @@
 # Instrument
-This repository contains the Instrument ontology module of the [Polifonia ontology network](https://github.com/polifonia-project/ON). The module is created to describe musical instruments, their categorisation into instrument families and groups, and their technical properties.
+This repository contains the Instrument ontology module of the [Polifonia ontology network](https://github.com/polifonia-project/ontology-network). The module is created to describe musical instruments, their categorisation into instrument families and groups, and their technical properties.
 
 ![instrument module diagram](https://github.com/polifonia-project/instrument/blob/main/instrument-diagram.png)
 
