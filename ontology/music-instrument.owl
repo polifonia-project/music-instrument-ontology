@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/polifonia/ontology/instrument/"
-     xml:base="https://w3id.org/polifonia/ontology/instrument/"
+<rdf:RDF xmlns="https://w3id.org/polifonia/ontology/music-instrument/"
+     xml:base="https://w3id.org/polifonia/ontology/music-instrument/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:core="https://w3id.org/polifonia/ontology/core/"
-     xmlns:inst="https://w3id.org/polifonia/ontology/instrument/"
+     xmlns:inst="https://w3id.org/polifonia/ontology/music-instrument/"
      xmlns:opla="http://ontologydesignpatterns.org/opla/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:catalogue="https://w3id.org/arco/ontology/catalogue/">
-    <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/instrument/">
-        <owl:versionIRI rdf:resource="https://w3id.org/polifonia/ontology/instrument/1.0/"/>
+    <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/music-instrument/">
+        <owl:versionIRI rdf:resource="https://w3id.org/polifonia/ontology/music-instrument/1.0/"/>
         <owl:imports rdf:resource="https://w3id.org/arco/ontology/location/1.2"/>
         <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/core/1.0"/>
         <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/music-meta/1.0/"/>
@@ -23,7 +23,7 @@
         <dc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
         <rdfs:comment xml:lang="en">This ontology describes musical instruments as mediums of performance and their technical properties. Given that numerous taxonomies of instruments into groups and families exist (e.g. Hornbostel-Sachs, MIMO, MusicBrainz) and finding common categorisations is an open problem, our module provides an abstraction capable to express arbitrary classifications.</rdfs:comment>
-        <rdfs:label xml:lang="en">Instrument Ontology</rdfs:label>
+        <rdfs:label xml:lang="en">Music Instrument Ontology</rdfs:label>
         <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
     </owl:Ontology>
     
