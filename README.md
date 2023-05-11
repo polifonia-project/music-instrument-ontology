@@ -18,7 +18,6 @@ The Music Instrument ontology module represents musical instruments as mediums o
 - Who built an instrument realization?
 - Which is the current location of an instrument realization?
 - Which are the locations of an instrument realization during its life cycle?
-- 
 
 ## Competency questions planned
 
@@ -33,13 +32,20 @@ WHERE { ?instrument core:isRealizedBy ?instrumentRealization .
 }
 ```
 
+- Who invented an instrument?
+```
+PREFIX inst: <https://w3id.org/polifonia/ontology/instrument/>
+SELECT DISTINCT ?instrument ?builder
+WHERE { ?instrument mi:wasInventedBy ?builder .
+}
+```
+
 ## Related ontologies
 
 ### External imports
 - [ArCo Location Ontology module](https://w3id.org/arco/ontology/location)
 
 ### Aligned ontologies
-- [Wikidata](link)
 
 ## Statistics
 Considering that this module imports other modules of the network and the ArCo ontology, relevant statistics are: 
