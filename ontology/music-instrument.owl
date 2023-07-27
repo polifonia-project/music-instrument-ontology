@@ -22,9 +22,16 @@
         <dc:creator xml:lang="en">Valentina Presutti</dc:creator>
         <dc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
         <rdfs:comment xml:lang="en">This ontology describes musical instruments as mediums of performance and their technical properties. Given that numerous taxonomies of instruments into groups and families exist (e.g. Hornbostel-Sachs, MIMO, MusicBrainz) and finding common categorisations is an open problem, our module provides an abstraction capable to express arbitrary classifications.</rdfs:comment>
         <rdfs:label xml:lang="en">Music Instrument Ontology</rdfs:label>
+        <dc:title xml:lang="en">Music Instrument Ontology</dc:title>
+        <dc:description xml:lang="en">This ontology describes musical instruments as mediums of performance and their technical properties. Given that numerous taxonomies of instruments into groups and families exist (e.g. Hornbostel-Sachs, MIMO, MusicBrainz) and finding common categorisations is an open problem, our module provides an abstraction capable to express arbitrary classifications.</dc:description>
         <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
+        <terms:modified>"2023-05-19"^^xsd:date</terms:modified>
+        <terms:issued>"2023-04-12"^^xsd:date</terms:issued>
+        <vann:preferredNamespacePrefix>mi:</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/polifonia/ontology/music-instrument/</vann:preferredNamespaceUri>
     </owl:Ontology>
     
 
